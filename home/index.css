@@ -1,11 +1,56 @@
 h1 {
   font-weight: lighter;
+  overflow-wrap: wrap;
+  margin: 10%;
 }
 
 h3 {
   font-weight: 100;
+  margin: 10%;
 }
 
-.container1 {
-  display: grid;
+.header {
+  display: flex;
+}
+
+.head-left {
+  flex: 1;
+  max-width: 100%;
+}
+.head-right {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  flex: 1;
+  max-width: 100%;
+}
+
+.head-text {
+  font-size: 200%;
+  text-align: right;
+}
+
+.border-right {
+  border-right: solid 2px #064420;
+}
+
+.head-links {
+  font-size: 65%;
+  text-align: left;
+  flex-wrap: nowrap;
+  word-spacing: 5%;
+  margin-top: 20%;
+}
+
+.arrow {
+  vertical-align: bottom;
+}
+
+.arrow:hover {
+  opacity: 0.5;
+}
+
+.middle-section {
+  width: 50%;
+  margin: 200px 0px 300px 100px;
 }
