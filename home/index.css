@@ -53,4 +53,14 @@ h3 {
 .middle-section {
   width: 50%;
   margin: 200px 0px 300px 100px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.me {
+  position: absolute;
+  width: 30%;
+  top: 25%;
+  left: 75%;
 }
