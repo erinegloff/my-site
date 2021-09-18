@@ -37,18 +37,24 @@ h3 {
 }
 
 .head-links {
-  font-size: 65%;
-  text-align: left;
+  display: flex;
   flex-wrap: nowrap;
-  word-spacing: 5%;
-  margin-top: 20%;
+  margin-top: 30px;
+}
+
+.links {
+  font-size: 15px;
+  text-decoration: none;
+  color: #064420;
 }
 
 .arrow {
   vertical-align: middle;
+  width: 20px;
+  margin-right: 8px;
 }
 
-.arrow:hover {
+.links:hover {
   opacity: 0.5;
 }
 
@@ -58,7 +64,6 @@ h3 {
 
 .about-me {
   text-align: left;
-
   width: 50%;
   font-size: 150%;
 }
